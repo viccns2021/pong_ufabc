@@ -12,11 +12,14 @@
       font-family: arial;
     }
 
-.emscripten {
-    padding: 0;
-    margin: 0 auto;
-    display: block;
-}
+    .emscripten {
+      padding: 0;
+      padding-right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      border-radius: 6px;
+    }
 
     textarea.emscripten {
       resize: none;
@@ -38,24 +41,22 @@
 
     /* div.emscripten_border { border: 1px solid black; } */
     /* the canvas *must not* have any border or padding, or mouse coords will be wrong */
+    canvas.emscripten {
+      display: none;
+      border: 0px none;
+      background-color: #00000000;
+      width: 2000px;
+      height: 2000px;
 
-canvas.emscripten {
-    display: block;   /* Mostrar o canvas */
-    border: none;
-    background-color: #000;  /* Fundo preto */
-    width: 640px;  /* Largura ajustada */
-    height: 480px;  /* Altura ajustada */
-    margin: 0 auto;  /* Centralizar o canvas na página */
-    image-rendering: optimizeSpeed;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: -o-crisp-edges;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: optimize-contrast;
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
-    -ms-interpolation-mode: nearest-neighbor;
-}
-
+      image-rendering: optimizeSpeed;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -o-crisp-edges;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: optimize-contrast;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
+      -ms-interpolation-mode: nearest-neighbor;
+    }
 
     progress {
       margin: 0px auto;
