@@ -15,5 +15,7 @@ Final:
 1 Player que se movimenta e conta a quantidade de colisões da bola.
 
 
+Obs: Infelizmente quando mudo pra web assembly as figuras abaixo nao aparecem, tentamos mudar as configurações de resolução e nada mudou.
+
 ![image](https://github.com/viccns2021/pong_ufabc/assets/87244865/8220d637-44f6-4cde-adf2-047272b2bf92)
 
