@@ -1,7 +1,12 @@
 # pong_ufabc
 
 Feito por 
+
+
 Victor Cristiano do Nascimento Silva RA21080416
+
+
+
 Daniel Espindola da Silva RA 11201720555
 
 
@@ -15,7 +20,14 @@ Final:
 1 Player que se movimenta e conta a quantidade de colisões da bola.
 
 
-Obs: Infelizmente quando mudo pra web assembly as figuras abaixo nao aparecem, tentamos mudar as configurações de resolução e nada mudou.
+ball.cpp
 
-![image](https://github.com/viccns2021/pong_ufabc/assets/87244865/8220d637-44f6-4cde-adf2-047272b2bf92)
+Estrutura da bola que colide com as paredes
 
+padlle.cpp
+
+Estrutura da rampa que colide com a bola e faz com que o jogo progrida.
+
+window.cpp
+
+Configura a janela e contabiliza os pontos.
